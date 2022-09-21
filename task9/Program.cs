@@ -10,6 +10,7 @@ int getRandomNumberFromRange(int minBorder, int maxBorder)
     result = new Random().Next(minBorder, maxBorder + 1);
     return result;
 }
+/*
 int getMaxDigitFromNumber(int number)
 {
     int maxDigit = 0;
@@ -24,19 +25,19 @@ int getMaxDigitFromNumber(int number)
     }
     return maxDigit;
 }
-
+*/
 int getMaxDigitFromNumberOfTwoDigits(int number)
 {
-    int maxDigit =number % 10;
-    int secondDigit = number/10;
-    if(maxDigit<secondDigit)
+    int maxDigit = number % 10;
+    int secondDigit = number / 10;
+    if (maxDigit < secondDigit)
     {
         maxDigit = secondDigit;
     }
     return maxDigit;
 }
 
-int randomNumber = getRandomNumberFromRange(10,99);
+int randomNumber = getRandomNumberFromRange(10, 99);
 Console.WriteLine($"Случайное значение {randomNumber}");
 int maxDigit = getMaxDigitFromNumberOfTwoDigits(randomNumber);
 Console.WriteLine($"Для числа {randomNumber} большая цифра {maxDigit}");
