@@ -13,3 +13,4 @@ System.Console.WriteLine(number[2]);
 Console.Write("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"Последняя цифра {number % 10}");
+*/
