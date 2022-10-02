@@ -42,4 +42,4 @@ int countNumberOfElenentsInRange(int[] incomingArray, int minBorder, int maxBord
 int[] currentArray = getRandomArray(123, 0, 999);
 printArray(currentArray);
 int numberOfElementsInRange = countNumberOfElenentsInRange(currentArray, 10, 99);
-Console.WriteLine($"В массиве присутствуют {numberOfElementsInRange} элементов в диапазоне [10:99");
+Console.WriteLine($"В массиве присутствуют {numberOfElementsInRange} элементов в диапазоне [10:99]");
